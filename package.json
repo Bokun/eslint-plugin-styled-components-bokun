@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-styled-components-bokun",
+  "version": "1.0.0",
+  "description": "ESlint's rules for styled components.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Guðmundur Egill",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/lib/rules/sort-declarations-yandex.js",
+    "debug": "node --nolazy --inspect-brk=9229 mocha tests/lib/rules/sort-declarations-yandex.js"
+  },
+  "dependencies": {
+    "postcss": "^7.0.2",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^3.1.2",
+    "prettier": "^1.14.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "Apache License Version 2.0.",
+  "private": false
+}
