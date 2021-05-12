@@ -14,7 +14,7 @@
     "debug": "node --nolazy --inspect-brk=9229 mocha tests/lib/rules/sort-declarations-yandex.js"
   },
   "dependencies": {
-    "postcss": "^7.0.2",
+    "postcss": "^8.2.10",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
